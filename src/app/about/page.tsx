@@ -104,7 +104,7 @@ export default function AboutPage() {
               <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-4">
                 {stats.map((stat) => (
                   <div key={stat.label} className="rounded-lg border border-white/[0.06] bg-white/[0.02] p-3.5 text-center">
-                    <span className="text-7xl font-bold text-[#7C5CFC]">{stat.value}</span>
+                    <span className="text-[22px] font-bold text-[#7C5CFC]">{stat.value}</span>
                     <p className="mt-1 text-[13px] text-[#6B7A8D]">{stat.label}</p>
                   </div>
                 ))}
@@ -310,7 +310,7 @@ export default function AboutPage() {
             {team.map((member, i) => (
               <AnimatedSection key={`${member.name}-${member.role}`} delay={i * 50} type="scale">
                 <div className="flex flex-col items-center rounded-xl border border-white/[0.06] bg-[#11151D] p-5 text-center transition-colors hover:bg-[#161B26]">
-                  <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-[#7C5CFC]/10 text-7xl font-semibold text-[#7C5CFC]">
+                  <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-[#7C5CFC]/10 text-[16px] font-semibold text-[#7C5CFC]">
                     {member.initials}
                   </div>
                   <h3 className="text-[15px] font-semibold text-[#F5F7FA]">{member.name}</h3>

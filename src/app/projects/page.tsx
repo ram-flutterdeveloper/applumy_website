@@ -78,7 +78,7 @@ export default function ProjectsPage() {
               <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-4">
                 {stats.map((stat) => (
                   <div key={stat.label} className="flex flex-col items-center gap-1 rounded-lg border border-white/[0.06] bg-white/[0.02] p-3.5 text-center">
-                    <span className="text-7xl font-bold text-[#7C5CFC]">{stat.value}</span>
+                    <span className="text-[22px] font-bold text-[#7C5CFC]">{stat.value}</span>
                     <p className="text-[13px] text-[#6B7A8D]">{stat.label}</p>
                   </div>
                 ))}

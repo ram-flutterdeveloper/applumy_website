@@ -296,7 +296,7 @@ export default function ContactPage() {
                   <div className="flex flex-col gap-3">
                     {processSteps.map((item) => (
                       <div key={item.step} className="flex items-start gap-3">
-                        <span className="text-7xl font-bold text-cyan-500/25">{item.step}</span>
+                        <span className="text-[20px] font-bold text-cyan-500/25">{item.step}</span>
                         <div>
                           <p className="text-[14px] font-medium text-white">{item.title}</p>
                           <p className="text-[13px] text-slate-500">{item.desc}</p>

@@ -117,7 +117,7 @@ export default function GuidesPage() {
 
           {filtered.length === 0 ? (
             <AnimatedSection className="flex flex-col items-center text-center py-10 gap-3">
-              <span className="text-7xl font-bold text-white/10">0</span>
+              <span className="text-[32px] font-bold text-white/10">0</span>
               <p className="text-[16px] text-[#6B7A8D]">No guides found.</p>
               <Button onClick={() => { setSearch(""); setActiveTag("All"); }} variant="secondary" size="sm">
                 Clear Filters

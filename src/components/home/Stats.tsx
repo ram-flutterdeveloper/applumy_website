@@ -32,7 +32,7 @@ export function Stats() {
                     <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#7C5CFC]/10">
                       <Icon className="h-4 w-4 text-[#7C5CFC]" />
                     </div>
-                    <span className="text-7xl font-bold text-[#F5F7FA] tracking-tight">{stat.value}</span>
+                    <span className="text-[20px] font-bold text-[#F5F7FA] tracking-tight">{stat.value}</span>
                     <span className="text-[14px] text-[#6B7A8D]">{stat.label}</span>
                   </div>
                 );

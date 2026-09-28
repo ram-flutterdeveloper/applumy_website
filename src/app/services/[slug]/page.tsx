@@ -32,7 +32,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
       <main className="pt-16 lg:pt-[72px]">
         <Container>
           <div className="flex flex-col items-center justify-center py-20 text-center gap-4">
-            <span className="text-7xl font-bold text-white/10">404</span>
+            <span className="text-[50px] font-bold text-white/10">404</span>
             <h1 className="text-[1.625rem] font-bold text-[#F5F7FA]">Service Not Found</h1>
             <p className="text-[16px] text-[#6B7A8D]">The service you&apos;re looking for doesn&apos;t exist.</p>
             <Link href="/services">
@@ -210,7 +210,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
             {service.process.map((step, i) => (
               <AnimatedSection key={step.step} delay={i * 50} type="scale">
                 <div className="rounded-xl border border-white/[0.06] bg-[#11151D] p-4 transition-colors hover:bg-[#161B26]">
-                  <span className="block text-7xl font-bold text-[#7C5CFC]/20">{step.step}</span>
+                  <span className="block text-[22px] font-bold text-[#7C5CFC]/20">{step.step}</span>
                   <h3 className="mt-1 text-[15px] font-semibold text-[#F5F7FA]">{step.title}</h3>
                   <p className="mt-1 text-[14px] text-[#6B7A8D] leading-[1.7]">{step.description}</p>
                 </div>

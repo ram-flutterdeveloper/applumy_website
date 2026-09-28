@@ -72,7 +72,7 @@ export function Hero() {
                     <div className="flex flex-col gap-1">
                       <div className="flex items-center gap-2">
                         <s.icon className="h-3.5 w-3.5 text-[#7C5CFC]" />
-                        <span className="text-7xl font-bold text-[#F5F7FA] tracking-tight">{s.val}</span>
+                        <span className="text-[22px] font-bold text-[#F5F7FA] tracking-tight">{s.val}</span>
                       </div>
                       <span className="text-[13px] text-[#6B7A8D]">{s.label}</span>
                     </div>

@@ -44,7 +44,7 @@ export default async function ResourcePage({ params }: { params: Promise<{ slug:
       <main className="pt-16 lg:pt-[72px]">
         <Container>
           <div className="flex flex-col items-center justify-center py-20 text-center gap-4">
-            <span className="text-7xl font-bold text-white/10">404</span>
+            <span className="text-[50px] font-bold text-white/10">404</span>
             <h1 className="text-[1.625rem] font-bold text-[#F5F7FA]">Resource Not Found</h1>
             <p className="text-[16px] text-[#6B7A8D]">The resource you&apos;re looking for doesn&apos;t exist.</p>
             <Link href="/resources">
